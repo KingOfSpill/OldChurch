@@ -502,9 +502,11 @@ function initLights(){
 
 function initAudio(){
 
+	// Credit to stradie at https://freesound.org/people/stradie/sounds/255570/
 	footsteps = new Audio('Sounds/footstep.wav');
 	footsteps.loop = true;
 
+	// Original song available at https://www.youtube.com/watch?v=REk9Ia6eYXk
 	music = new Audio('Sounds/myuu - Silent Night (Dark Piano Version).mp3');
 	music.loop = true;
 
